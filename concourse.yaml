@@ -1,0 +1,6 @@
+concourse:
+   password: $PASSWORD
+   baggageclaimDriver: overlay
+ web:
+   service:
+     type: LoadBalancer
